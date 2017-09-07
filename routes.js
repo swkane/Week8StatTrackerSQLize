@@ -93,7 +93,7 @@ router.route('/activities/:id')
 
 
   // Post a new activity where User Specifies date
-  router.route('/activities')
+  router.route('/activities/:id/stats')
     .post((req, res) => {
       let newExercise = {
         exercise: req.body.exercise,

@@ -1,0 +1,128 @@
+{
+	"variables": [],
+	"info": {
+		"name": "StatTracker",
+		"_postman_id": "c470319e-a933-f6c3-a948-39c603a278d4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/activities",
+			"request": {
+				"url": "http://localhost:3000/api/activities",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/stats?date=1969-12-31",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3000/api/stats?date=1969-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"stats"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "1969-12-31",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/activities",
+			"request": {
+				"url": "http://localhost:3000/api/activities",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/activities/2",
+			"request": {
+				"url": "http://localhost:3000/api/activities/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/activities/2/run",
+			"request": {
+				"url": "http://localhost:3000/api/activities/2/run",
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/activities/2/stats",
+			"request": {
+				"url": "http://localhost:3000/api/activities/2/stats",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/stats?date=1969-12-31",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3000/api/stats?date=1969-12-31",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"stats"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "1969-12-31",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
