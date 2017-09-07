@@ -67,6 +67,18 @@ router.route('/activities/:id/:exercise')
     });
   });
 
+// Delete 1 activity Works!!
+router.route('/activities/:id')
+  .delete((req ,res) => {
+    models.Activity.destroy({
+      where: {
+        id: req.params.id
+      }
+    }).then(function(act) {
+      res.json(act);
+    });
+  });
+
 
 router.use('/api', router);
 module.exports = router;
